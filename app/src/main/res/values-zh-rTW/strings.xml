@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">麗莉的語言卡</string>
+    <string name="it_is_a_draw">平局！</string>
+    <string name="setting_game_language">遊戲語言</string>
+    <string name="round_end">回合結束</string>
+    <string name="winner_is">贏家是<b>%s!</b></string>
+    <string name="menu_setting">設置</string>
+    <string name="menu_combat">對戰模式</string>
+    <string name="choose_player">選擇玩家</string>
+    <string name="menu_study">學習模式</string>
+    <string name="menu_gallery">藝術迴廊</string>
+</resources>

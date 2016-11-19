@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lilly carte de langue</string>
+       
+    <string name="it_is_a_draw">Il est un tirage au sort!</string>
+        
+    <string name="setting_game_language">La langue du jeu</string>
+        
+    <string name="round_end">Round End</string>
+        
+    <string name="winner_is">Gagnant est <b>%s!</b></string>
+        
+    <string name="menu_setting">Réglage</string>
+        
+    <string name="menu_combat">Mode de combat</string>
+        
+    <string name="choose_player">Sélectionnez joueurs</string>
+        
+    <string name="menu_study">Mode d\'apprentissage</string>
+    <string name="menu_gallery">couloir art</string>
+</resources>

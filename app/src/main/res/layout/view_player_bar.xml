@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="player"
+            type="com.zxiu.lillyscard.entities.Player" />
+
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/player_bar"
+        android:padding="5dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/player_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@{player.imageUrl}"
+            app:actualImageScaleType="centerInside"
+            app:fadeDuration="300"
+            app:failureImageScaleType="centerInside"
+            app:placeholderImageScaleType="fitCenter"
+            app:progressBarAutoRotateInterval="1000"
+            app:progressBarImageScaleType="centerInside"
+            app:retryImageScaleType="centerCrop"
+            app:roundAsCircle="false"
+            app:roundBottomLeft="false"
+            app:roundBottomRight="true"
+            app:roundTopLeft="true"
+            app:roundTopRight="false"
+            app:roundedCornerRadius="1dp"
+            app:roundingBorderWidth="2dp"
+            app:viewAspectRatio="1" />
+
+        <me.grantland.widget.AutofitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@{player.name}"
+            android:textColor="#ffffff"
+            app:minTextSize="30sp" />
+
+        <me.grantland.widget.AutofitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="right|center_vertical"
+            android:text="@{player.point}"
+            android:textColor="#ffffff"
+            app:minTextSize="30sp" />
+    </LinearLayout>
+</layout>

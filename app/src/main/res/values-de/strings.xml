@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lilly Sprachkarte</string>
+    <string name="it_is_a_draw">Unentschieden</string>
+    <string name="setting_game_language">Game Sprache</string>
+    <string name="round_end">Round End!</string>
+    <string name="winner_is">Gewinner ist <b>%s!</b></string>
+    <string name="menu_setting">Einstellung</string>
+    <string name="menu_combat">Duelle Mode</string>
+    <string name="choose_player">Spieler auswählen</string>
+    <string name="menu_study">Learnen Mode</string>
+    <string name="menu_gallery">Kunst Flur</string>
+</resources>

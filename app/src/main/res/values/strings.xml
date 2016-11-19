@@ -1,0 +1,85 @@
+<resources  xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Lilly Language Card</string>
+
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+
+    <string name="learn_english" translatable="false">Learn English</string>
+    <string name="learn_germany" translatable="false">Learnen Deutsch</string>
+    <string name="learn_chinese" translatable="false">学习中文</string>
+
+    <string name="menu_combat">Combat</string>
+    <string name="menu_study">Study</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_gallery">Art Corridor</string>
+
+    <string name="choose_player">Choose Player</string>
+    <string name="winner_is">Winner is <b>%s!</b></string>
+    <string name="it_is_a_draw">It is a draw!</string>
+    <string name="round_end">ROUND END</string>
+    <plurals name="need_select_x_players">
+        <item quantity="one">You need to select one player</item>
+        <item quantity="two">You need to select two players</item>
+        <item quantity="other">You need to select %d players</item>
+    </plurals>
+
+    <!--Settings-->
+
+    <string name="setting_general">General Settings</string>
+    <string name="setting_duel">Duel Mode Settings</string>
+    <string name="setting_learn">Learn Mode Settings</string>
+    <string name="setting_game_language">Game Language</string>
+    <string name="setting_speech">Speech</string>
+    <string name="setting_video">Video</string>
+    <string name="setting_screen_orientation">Screen Orientation</string>
+    <string name="setting_columns">Columns</string>
+    <string name="setting_rows">Rows</string>
+    <string name="setting_music">Music</string>
+
+    <string name="icon_credit">Designed by Freepik</string>
+
+
+
+    <!-- player -->
+
+    <string name="video">Video</string>
+
+    <string name="audio">Audio</string>
+
+    <string name="text">Text</string>
+
+    <string name="retry">Retry</string>
+
+    <string name="selection_disabled">Disabled</string>
+
+    <string name="selection_default">Default</string>
+
+    <string name="selection_default_none">Default (none)</string>
+
+    <string name="unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+
+    <string name="enable_random_adaptation">Enable random adaptation</string>
+
+    <string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
+
+    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+
+    <string name="error_drm_unknown">An unknown DRM error occurred</string>
+
+    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_querying_decoders">Unable to query device decoders</string>
+
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+
+    <string name="sample_list_load_error">One or more sample lists failed to load</string>
+
+</resources>

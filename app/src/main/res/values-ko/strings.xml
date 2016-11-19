@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">릴리 언어 카드</string>
+        
+    <string name="it_is_a_draw">타이! </string>
+        
+    <string name="setting_game_language"> 게임 언어 </string>
+        
+    <string name="round_end"> 라운드 종료 </string>
+        
+    <string name="winner_is"> 승자는 <b>%의!</b> </string>
+        
+    <string name="menu_setting"> 설정 </string>
+        
+    <string name="menu_combat"> 배틀 모드 </string>
+        
+    <string name="choose_player"> 선택 플레이어 </string>
+        
+    <string name="menu_study"> 학습 </string>
+    <string name="menu_gallery">예술 복도</string>
+</resources>

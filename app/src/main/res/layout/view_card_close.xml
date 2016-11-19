@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <FrameLayout
+        android:id="@+id/view_front"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_round_corner">
+
+        <ImageView
+            android:id="@+id/image_front"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/bg_poker_0" />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="30sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/view_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/card_round_corner">
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_poker_0" />
+
+    </FrameLayout>
+
+
+</FrameLayout>

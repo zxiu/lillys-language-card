@@ -1,0 +1,13 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+libs/
+src/main/assets/media.exolist.json
+src/main/res/layout/sample_chooser_activity.xml
+src/main/res/layout/track_selection_dialog.xml

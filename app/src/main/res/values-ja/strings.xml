@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">リリー言語カード</string>
+        
+    <string name="it_is_a_draw">描きます！</string>
+        
+    <string name="setting_game_language">ゲームの言語</string>
+        
+    <string name="round_end">ラウンド終了</string>
+        
+    <string name="winner_is">勝者は<b>％s</b> </string>
+        
+    <string name="menu_setting">設定</string>
+        
+    <string name="menu_combat">決闘モード</string>
+        
+    <string name="choose_player">プレイヤーを選択</string>
+        
+    <string name="menu_study">学習モード</string>
+    <string name="menu_gallery">芸術回廊</string>
+</resources>

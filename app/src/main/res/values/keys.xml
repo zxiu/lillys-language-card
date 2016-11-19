@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_game_language" translatable="false">key_game_language</string>
+    <string name="key_speech" translatable="false">key_speech</string>
+    <string name="key_screen_orientation" translatable="false">key_screen_orientation</string>
+    <string name="key_video" translatable="false">key_video</string>
+    <string name="key_learn_columns" translatable="false">key_learn_columns</string>
+    <string name="key_learn_rows" translatable="false">key_learn_rows</string>
+    <string name="key_duel_columns" translatable="false">key_duel_columns</string>
+    <string name="key_duel_rows" translatable="false">key_duel_rows</string>
+    <string name="key_music" translatable="false">key_music</string>
+</resources>
