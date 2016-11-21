@@ -161,7 +161,6 @@ public class ArtFragment extends Fragment implements View.OnClickListener {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-//                    Toast.makeText(getActivity(), "Long Click to Change", Toast.LENGTH_SHORT).show();
                     if (position != mediaManager.getCurrentMusicIndex()) {
                         mediaManager.changeTo(position);
                     }

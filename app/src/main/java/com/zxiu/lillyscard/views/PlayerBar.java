@@ -4,7 +4,6 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.FrameLayout;
-import android.widget.Toast;
 
 import com.zxiu.lillyscard.databinding.ViewPlayerBarBinding;
 import com.zxiu.lillyscard.entities.Player;
@@ -34,7 +33,6 @@ public class PlayerBar extends FrameLayout {
     }
 
     public void setPlayer(Player player) {
-        Toast.makeText(getContext(), player.toString(), Toast.LENGTH_SHORT).show();
         binding.setPlayer(player);
         binding.notifyChange();
     }
