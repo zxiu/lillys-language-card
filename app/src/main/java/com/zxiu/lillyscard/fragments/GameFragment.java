@@ -241,12 +241,6 @@ public class GameFragment extends Fragment implements OnCardToggleListener {
     }
 
     protected void newRound() {
-//        showInterstitial();
-//        finish();
-//        Intent intent = new Intent(this, this.getClass());
-//        intent.putExtra(EXTRA_PLAYER_INDEX, currentPlayerIndex);
-//        intent.putExtra(EXTRA_GROUP_INDEX, groupIndex + 1);
-//        startActivity(intent);
         if (isCombat()) {
             ((MainActivity) getActivity()).showInterstitial();
         } else {
@@ -647,12 +641,6 @@ public class GameFragment extends Fragment implements OnCardToggleListener {
             }
             return convertView;
         }
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
-        ((MainActivity) getActivity()).showInterstitial();
     }
 
     public List<Player> getSelectedPlayers() {

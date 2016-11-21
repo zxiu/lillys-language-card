@@ -1,4 +1,4 @@
-<resources  xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Lilly Language Card</string>
 
     <string name="dummy_button" translatable="false">Dummy Button</string>
@@ -26,60 +26,57 @@
     <!--Settings-->
 
     <string name="setting_general">General Settings</string>
-    <string name="setting_duel">Duel Mode Settings</string>
-    <string name="setting_learn">Learn Mode Settings</string>
     <string name="setting_game_language">Game Language</string>
     <string name="setting_speech">Speech</string>
-    <string name="setting_video">Video</string>
-    <string name="setting_screen_orientation">Screen Orientation</string>
-    <string name="setting_columns">Columns</string>
-    <string name="setting_rows">Rows</string>
     <string name="setting_music">Music</string>
+    <string name="setting_screen_orientation" translatable="false">Screen Orientation</string>
+    <string name="setting_columns" translatable="false">Columns</string>
+    <string name="setting_rows" translatable="false">Rows</string>
 
-    <string name="icon_credit">Designed by Freepik</string>
 
+    <string name="icon_credit" translatable="false">Designed by Freepik</string>
 
 
     <!-- player -->
 
-    <string name="video">Video</string>
+    <string name="video" translatable="false">Video</string>
 
-    <string name="audio">Audio</string>
+    <string name="audio" translatable="false">Audio</string>
 
-    <string name="text">Text</string>
+    <string name="text" translatable="false">Text</string>
 
-    <string name="retry">Retry</string>
+    <string name="retry" translatable="false">Retry</string>
 
-    <string name="selection_disabled">Disabled</string>
+    <string name="selection_disabled" translatable="false">Disabled</string>
 
-    <string name="selection_default">Default</string>
+    <string name="selection_default" translatable="false">Default</string>
 
-    <string name="selection_default_none">Default (none)</string>
+    <string name="selection_default_none" translatable="false">Default (none)</string>
 
-    <string name="unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+    <string name="unexpected_intent_action" translatable="false">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
 
-    <string name="enable_random_adaptation">Enable random adaptation</string>
+    <string name="enable_random_adaptation" translatable="false">Enable random adaptation</string>
 
-    <string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
+    <string name="error_drm_not_supported" translatable="false">Protected content not supported on API levels below 18</string>
 
-    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+    <string name="error_drm_unsupported_scheme" translatable="false">This device does not support the required DRM scheme</string>
 
-    <string name="error_drm_unknown">An unknown DRM error occurred</string>
+    <string name="error_drm_unknown" translatable="false">An unknown DRM error occurred</string>
 
-    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_no_decoder" translatable="false">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
 
-    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_no_secure_decoder" translatable="false">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
 
-    <string name="error_querying_decoders">Unable to query device decoders</string>
+    <string name="error_querying_decoders" translatable="false">Unable to query device decoders</string>
 
-    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+    <string name="error_instantiating_decoder" translatable="false">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
 
-    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+    <string name="error_unsupported_video" translatable="false">Media includes video tracks, but none are playable by this device</string>
 
-    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+    <string name="error_unsupported_audio" translatable="false">Media includes audio tracks, but none are playable by this device</string>
 
-    <string name="storage_permission_denied">Permission to access storage was denied</string>
+    <string name="storage_permission_denied" translatable="false">Permission to access storage was denied</string>
 
-    <string name="sample_list_load_error">One or more sample lists failed to load</string>
+    <string name="sample_list_load_error" translatable="false">One or more sample lists failed to load</string>
 
 </resources>

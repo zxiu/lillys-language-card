@@ -10,4 +10,7 @@
     <string name="choose_player">选择玩家</string>
     <string name="menu_study">学习模式</string>
     <string name="menu_gallery">艺术回廊</string>
+    <string name="setting_speech">语音</string>
+    <string name="setting_music">音乐</string>
+    <string name="setting_general">常规设置</string>
 </resources>

@@ -10,4 +10,7 @@
     <string name="choose_player">Spieler auswählen</string>
     <string name="menu_study">Learnen Mode</string>
     <string name="menu_gallery">Kunst Flur</string>
+    <string name="setting_general">General Einstellung</string>
+    <string name="setting_music">Musik</string>
+    <string name="setting_speech">Rede</string>
 </resources>

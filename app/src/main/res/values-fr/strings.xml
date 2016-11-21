@@ -18,4 +18,7 @@
         
     <string name="menu_study">Mode d\'apprentissage</string>
     <string name="menu_gallery">couloir art</string>
+    <string name="setting_speech">discours</string>
+    <string name="setting_general">réglages généraux</string>
+    <string name="setting_music">la musique</string>
 </resources>
